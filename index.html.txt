@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Incoming Call</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="call-screen">
+    <img src="https://i.imgur.com/yXOvdOSs.jpg" alt="Caller" class="caller-img">
+    <h2>Frank is calling...</h2>
+    <div class="buttons">
+      <button class="decline">Decline</button>
+      <button class="accept">Accept</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
