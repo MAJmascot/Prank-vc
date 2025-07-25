@@ -1,39 +1,26 @@
 body {
-  margin: 0;
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-  text-align: center;
-}
-
-.call-screen {
-  margin-top: 100px;
-}
-
-.caller-img {
-  width: 200px;
-  border-radius: 50%;
-  border: 5px solid white;
-}
-
-.buttons {
-  margin-top: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 50px;
 }
 
 button {
-  padding: 10px 20px;
-  font-size: 18px;
-  margin: 10px;
-  border-radius: 10px;
-  cursor: pointer;
+    margin: 10px;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.accept {
-  background-color: green;
-  color: white;
+#accept {
+    background-color: green;
+    color: white;
 }
 
-.decline {
-  background-color: red;
-  color: white;
+#decline {
+    background-color: red;
+    color: white;
 }

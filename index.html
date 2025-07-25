@@ -1,18 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Incoming Call</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="call-screen">
-    <img src="https://i.imgur.com/yXOvdOSs.jpg" alt="Caller" class="caller-img">
-    <h2>Frank is calling...</h2>
-    <div class="buttons">
-      <button class="decline">Decline</button>
-      <button class="accept">Accept</button>
-    </div>
-  </div>
-  <script src="script.js"></script>
-</body>
-</html>
+<div id="call-screen">
+    <h2>Frank is calling…</h2>
+    <img src="girl.jpg" alt="Caller" style="width:150px; border-radius: 50%;" />
+    <br><br>
+    <button id="accept">Accept</button>
+    <button id="decline">Decline</button>
+</div>
+
+<div id="video-call" style="display:none;">
+    <h2>Video Call Active</h2>
+    <video id="local-video" autoplay playsinline style="width: 300px; border: 2px solid white;"></video>
+</div>
+<a href="https://wa.me/12177793869" target="_blank">
+    <button style="background-color:#25D366; color:white;">Open WhatsApp Chat</button>
+</a>
