@@ -1,15 +1,28 @@
-<div id="call-screen">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prank VC</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div id="call-screen">
     <h2>Frank is calling…</h2>
     <img src="girl.jpg" alt="Caller" style="width:150px; border-radius: 50%;" />
     <br><br>
     <button id="accept">Accept</button>
     <button id="decline">Decline</button>
-</div>
+    <br><br>
+    <a href="https://wa.me/12177793869" target="_blank">
+      <button style="background-color:#25D366; color:white;">Open WhatsApp Chat</button>
+    </a>
+  </div>
 
-<div id="video-call" style="display:none;">
+  <div id="video-call" style="display:none;">
     <h2>Video Call Active</h2>
     <video id="local-video" autoplay playsinline style="width: 300px; border: 2px solid white;"></video>
-</div>
-<a href="https://wa.me/12177793869" target="_blank">
-    <button style="background-color:#25D366; color:white;">Open WhatsApp Chat</button>
-</a>
+  </div>
+</body>
+</html>
